@@ -70,8 +70,8 @@ int leeRegistro(){
         printf("%02d/%02d/%4d: %17s  %-35s %-18s %-15s %s\n\n",dia,mes,anho,
                 "Telefono","Nombre","Inicio","Fin","Factor");
         while((dia = leeRegistroDePersona())==1){//mientras hayan registros por leer
-            llamadas++;
         } 
+        llamadas = 1;
         printf("\n");
         getchar();
     }
