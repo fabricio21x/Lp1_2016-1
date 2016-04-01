@@ -25,7 +25,8 @@ int leeRegistroDePersona(){
     int cont=0,pais,ciudad,telefono;
     int horI,minI,segI,horF,minF,segF;
     float tarifa;
-    
+    c = getchar();
+    if(c == EOF)return 0;
     if (scanf("%2d%d-%d",&pais,&ciudad,&telefono) != 3)
         return pais;
     
@@ -70,7 +71,8 @@ int leeRegistro(){
         printf("%02d/%02d/%4d: %17s  %-35s %-18s %-15s %s\n\n",dia,mes,anho,
                 "Telefono","Nombre","Inicio","Fin","Factor");
         while((dia = leeRegistroDePersona())==1){//mientras hayan registros por leer
-        } 
+        }
+        if(dia == 0) return 0;
         llamadas = 1;
         printf("\n");
         getchar();
