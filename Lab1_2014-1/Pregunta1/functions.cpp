@@ -42,7 +42,6 @@ int leeRegistroDePersona(){
     scanf("%d:%d:%d %f",&horF,&minF,&segF,&tarifa);
     printf("%*d:%02d:%02d %10d:%02d:%02d %15.3f\n",40-cont,horI,minI,segI,
             horF,minF,segF,tarifa);
-    int x,y;
     return 1;
 }
 
