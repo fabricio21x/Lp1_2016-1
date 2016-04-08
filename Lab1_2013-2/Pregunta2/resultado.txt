@@ -237,14 +237,14 @@ Movimientos
 
 Resumen:
 Depositos: 		Total:		78365
-			Promedio:	753
-Retiros: 		Total:		86746
-			Promedio:	781
+			Promedio:	753.51
+Retiros: 		Total:		86746.00
+			Promedio:	781.50
 Saldo final: 		-5312.76
 ==============================================================================================================
 Cuenta No.: 		BAZ537
 Cliente: 		CHUNG/LEE/ALVARO
-Saldo inicial: 		39420.4
+Saldo inicial: 		39420.39
 
 Movimientos
 11/3/2013
@@ -332,15 +332,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		335073
-			Promedio:	8817
-Retiros: 		Total:		413916
-			Promedio:	10613
-Saldo final: 		-39422.6
+Depositos: 		Total:		335073.00
+			Promedio:	8817.71
+Retiros: 		Total:		413916.00
+			Promedio:	10613.23
+Saldo final: 		-39422.61
 ==============================================================================================================
 Cuenta No.: 		CAC750
 Cliente: 		PAZ/CANALES/SANDRA-GLORIA
-Saldo inicial: 		79083.8
+Saldo inicial: 		79083.80
 
 Movimientos
 16/1/2013
@@ -636,11 +636,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		2536215
-			Promedio:	19814
-Retiros: 		Total:		2733923
-			Promedio:	19389
-Saldo final: 		-118624
+Depositos: 		Total:		2536215.00
+			Promedio:	19814.18
+Retiros: 		Total:		2733923.00
+			Promedio:	19389.52
+Saldo final: 		-118624.20
 ==============================================================================================================
 Cuenta No.: 		CCA271
 Cliente: 		CERNA/PAIRAZAMAN/FIORELLA-MARGOT
@@ -905,10 +905,10 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		72638
-			Promedio:	610
-Retiros: 		Total:		76104
-			Promedio:	650
+Depositos: 		Total:		72638.00
+			Promedio:	610.40
+Retiros: 		Total:		76104.00
+			Promedio:	650.46
 Saldo final: 		-843.84
 ==============================================================================================================
 Cuenta No.: 		CRQ229
@@ -1262,11 +1262,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		328324
-			Promedio:	2295
-Retiros: 		Total:		377157
-			Promedio:	2180
-Saldo final: 		-39495.3
+Depositos: 		Total:		328324.00
+			Promedio:	2295.97
+Retiros: 		Total:		377157.00
+			Promedio:	2180.10
+Saldo final: 		-39495.29
 ==============================================================================================================
 Cuenta No.: 		CST872
 Cliente: 		GAVIDIA/PALOMARES/MILAGROS-GIOVANA
@@ -1597,15 +1597,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		151172
-			Promedio:	1001
-Retiros: 		Total:		142765
-			Promedio:	945
-Saldo final: 		12336.6
+Depositos: 		Total:		151172.00
+			Promedio:	1001.14
+Retiros: 		Total:		142765.00
+			Promedio:	945.46
+Saldo final: 		12336.57
 ==============================================================================================================
 Cuenta No.: 		CZT836
 Cliente: 		SHIRAKAWA/ORTEGA/ANGEL
-Saldo inicial: 		37806.9
+Saldo inicial: 		37806.90
 
 Movimientos
 18/1/2013
@@ -1853,15 +1853,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		979957
-			Promedio:	8749
-Retiros: 		Total:		1055197
-			Promedio:	9338
-Saldo final: 		-37433.1
+Depositos: 		Total:		979957.00
+			Promedio:	8749.62
+Retiros: 		Total:		1055197.00
+			Promedio:	9338.03
+Saldo final: 		-37433.10
 ==============================================================================================================
 Cuenta No.: 		ENV917
 Cliente: 		ORTIZ/EPIQUEN/HENRY-ISRAEL
-Saldo inicial: 		31720.6
+Saldo inicial: 		31720.60
 
 Movimientos
 24/2/2013
@@ -1960,15 +1960,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		402855
-			Promedio:	7601
-Retiros: 		Total:		244566
-			Promedio:	7411
-Saldo final: 		190010
+Depositos: 		Total:		402855.00
+			Promedio:	7601.04
+Retiros: 		Total:		244566.00
+			Promedio:	7411.09
+Saldo final: 		190009.60
 ==============================================================================================================
 Cuenta No.: 		FNP788
 Cliente: 		JAUREGUI/BRAVO/LUZ-SOFIA
-Saldo inicial: 		16307.3
+Saldo inicial: 		16307.32
 
 Movimientos
 24/12/2012
@@ -2110,11 +2110,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		284069
-			Promedio:	4239
-Retiros: 		Total:		244935
-			Promedio:	3950
-Saldo final: 		55441.3
+Depositos: 		Total:		284069.00
+			Promedio:	4239.84
+Retiros: 		Total:		244935.00
+			Promedio:	3950.56
+Saldo final: 		55441.32
 ==============================================================================================================
 Cuenta No.: 		GJN844
 Cliente: 		INFANTES/HERNANDEZ/ROBERTO
@@ -2274,15 +2274,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		4616
-			Promedio:	57
-Retiros: 		Total:		3281
-			Promedio:	57
+Depositos: 		Total:		4616.00
+			Promedio:	57.70
+Retiros: 		Total:		3281.00
+			Promedio:	57.56
 Saldo final: 		1562.41
 ==============================================================================================================
 Cuenta No.: 		GMT965
 Cliente: 		ARCA/AQUINO/DELICIA
-Saldo inicial: 		265.9
+Saldo inicial: 		265.90
 
 Movimientos
 25/1/2013
@@ -2478,11 +2478,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		5808
-			Promedio:	65
-Retiros: 		Total:		5627
-			Promedio:	65
-Saldo final: 		446.9
+Depositos: 		Total:		5808.00
+			Promedio:	65.26
+Retiros: 		Total:		5627.00
+			Promedio:	65.43
+Saldo final: 		446.90
 ==============================================================================================================
 Cuenta No.: 		HOB341
 Cliente: 		ZEGARRA/CASANOVA/ESTEFANIA
@@ -2531,15 +2531,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		11258
-			Promedio:	703
-Retiros: 		Total:		13005
-			Promedio:	722
+Depositos: 		Total:		11258.00
+			Promedio:	703.62
+Retiros: 		Total:		13005.00
+			Promedio:	722.50
 Saldo final: 		985.42
 ==============================================================================================================
 Cuenta No.: 		HVS771
 Cliente: 		MERCADO/CARO/OFELIA-CARMEN
-Saldo inicial: 		56492.7
+Saldo inicial: 		56492.68
 
 Movimientos
 16/1/2013
@@ -2830,15 +2830,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		2070456
-			Promedio:	14279
-Retiros: 		Total:		1644498
-			Promedio:	13819
-Saldo final: 		482451
+Depositos: 		Total:		2070456.00
+			Promedio:	14279.01
+Retiros: 		Total:		1644498.00
+			Promedio:	13819.31
+Saldo final: 		482450.68
 ==============================================================================================================
 Cuenta No.: 		JAZ655
 Cliente: 		HENRIQUEZ/SALAZAR/GONZALO
-Saldo inicial: 		96.6
+Saldo inicial: 		96.60
 
 Movimientos
 18/1/2013
@@ -2941,15 +2941,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		847
-			Promedio:	24
-Retiros: 		Total:		1346
-			Promedio:	24
-Saldo final: 		-402.4
+Depositos: 		Total:		847.00
+			Promedio:	24.91
+Retiros: 		Total:		1346.00
+			Promedio:	24.04
+Saldo final: 		-402.40
 ==============================================================================================================
 Cuenta No.: 		JCI769
 Cliente: 		VEGA/GARCIA/JANET-REBECA
-Saldo inicial: 		45546.8
+Saldo inicial: 		45546.82
 
 Movimientos
 23/1/2013
@@ -3174,15 +3174,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		1207447
-			Promedio:	11391
-Retiros: 		Total:		1074446
-			Promedio:	10963
-Saldo final: 		178548
+Depositos: 		Total:		1207447.00
+			Promedio:	11391.01
+Retiros: 		Total:		1074446.00
+			Promedio:	10963.73
+Saldo final: 		178547.82
 ==============================================================================================================
 Cuenta No.: 		JIA800
 Cliente: 		PASQUEL/LAM/MARGOT-TERESA
-Saldo inicial: 		21386.1
+Saldo inicial: 		21386.10
 
 Movimientos
 2/2/2013
@@ -3437,15 +3437,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		544918
-			Promedio:	5395
-Retiros: 		Total:		661258
-			Promedio:	5126
-Saldo final: 		-94953.9
+Depositos: 		Total:		544918.00
+			Promedio:	5395.23
+Retiros: 		Total:		661258.00
+			Promedio:	5126.03
+Saldo final: 		-94953.90
 ==============================================================================================================
 Cuenta No.: 		KIE565
 Cliente: 		MEJIA/ZEGARRA/GIOVANA
-Saldo inicial: 		4068.4
+Saldo inicial: 		4068.40
 
 Movimientos
 25/12/2012
@@ -3653,15 +3653,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		83896
-			Promedio:	932
-Retiros: 		Total:		97520
-			Promedio:	1026
-Saldo final: 		-9555.6
+Depositos: 		Total:		83896.00
+			Promedio:	932.18
+Retiros: 		Total:		97520.00
+			Promedio:	1026.53
+Saldo final: 		-9555.60
 ==============================================================================================================
 Cuenta No.: 		KLK837
 Cliente: 		GARCIA/ASTETE/VICTOR-EDGAR
-Saldo inicial: 		12087
+Saldo inicial: 		12087.00
 
 Movimientos
 11/2/2013
@@ -3779,15 +3779,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		149394
-			Promedio:	2987
-Retiros: 		Total:		148428
-			Promedio:	3029
-Saldo final: 		13053
+Depositos: 		Total:		149394.00
+			Promedio:	2987.88
+Retiros: 		Total:		148428.00
+			Promedio:	3029.14
+Saldo final: 		13053.00
 ==============================================================================================================
 Cuenta No.: 		KWS523
 Cliente: 		PORTUGAL/RAFFO/ALEXANDER
-Saldo inicial: 		90324.1
+Saldo inicial: 		90324.09
 
 Movimientos
 17/1/2013
@@ -4012,15 +4012,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		2447783
-			Promedio:	23764
-Retiros: 		Total:		2278877
-			Promedio:	22563
-Saldo final: 		259230
+Depositos: 		Total:		2447783.00
+			Promedio:	23764.88
+Retiros: 		Total:		2278877.00
+			Promedio:	22563.14
+Saldo final: 		259230.09
 ==============================================================================================================
 Cuenta No.: 		LVA198
 Cliente: 		CORTEZ/MERCADO/RONAL
-Saldo inicial: 		7970.2
+Saldo inicial: 		7970.20
 
 Movimientos
 25/1/2013
@@ -4162,11 +4162,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		102738
-			Promedio:	1867
-Retiros: 		Total:		135571
-			Promedio:	1936
-Saldo final: 		-24862.8
+Depositos: 		Total:		102738.00
+			Promedio:	1867.96
+Retiros: 		Total:		135571.00
+			Promedio:	1936.73
+Saldo final: 		-24862.80
 ==============================================================================================================
 Cuenta No.: 		RCU672
 Cliente: 		SALAZAR/CORRALES/LORENA-IRMA
@@ -4263,15 +4263,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		41537
-			Promedio:	1065
-Retiros: 		Total:		45130
-			Promedio:	1100
+Depositos: 		Total:		41537.00
+			Promedio:	1065.05
+Retiros: 		Total:		45130.00
+			Promedio:	1100.73
 Saldo final: 		788.85
 ==============================================================================================================
 Cuenta No.: 		SMI882
 Cliente: 		COLLADO/VILLA/RAUL
-Saldo inicial: 		79041.7
+Saldo inicial: 		79041.70
 
 Movimientos
 9/2/2013
@@ -4382,15 +4382,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		784885
-			Promedio:	20125
-Retiros: 		Total:		1077335
-			Promedio:	18259
-Saldo final: 		-213408
+Depositos: 		Total:		784885.00
+			Promedio:	20125.26
+Retiros: 		Total:		1077335.00
+			Promedio:	18259.92
+Saldo final: 		-213408.30
 ==============================================================================================================
 Cuenta No.: 		SML939
 Cliente: 		HENRIQUEZ/YOSHINARI/RAUL-MANUEL
-Saldo inicial: 		3947.9
+Saldo inicial: 		3947.90
 
 Movimientos
 3/2/2013
@@ -4635,11 +4635,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		106753
-			Promedio:	979
-Retiros: 		Total:		111132
-			Promedio:	966
-Saldo final: 		-431.1
+Depositos: 		Total:		106753.00
+			Promedio:	979.39
+Retiros: 		Total:		111132.00
+			Promedio:	966.37
+Saldo final: 		-431.10
 ==============================================================================================================
 Cuenta No.: 		UKO927
 Cliente: 		ZAMORA/CABRERA/CARMEN
@@ -4693,15 +4693,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		34396
-			Promedio:	1273
-Retiros: 		Total:		18773
-			Promedio:	1340
-Saldo final: 		20866.5
+Depositos: 		Total:		34396.00
+			Promedio:	1273.93
+Retiros: 		Total:		18773.00
+			Promedio:	1340.93
+Saldo final: 		20866.53
 ==============================================================================================================
 Cuenta No.: 		ULY865
 Cliente: 		ORTIZ/GUEVARA/YLIANA-FLOR
-Saldo inicial: 		14944.2
+Saldo inicial: 		14944.20
 
 Movimientos
 24/1/2013
@@ -4817,15 +4817,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		153325
-			Promedio:	3739
-Retiros: 		Total:		203388
-			Promedio:	3389
-Saldo final: 		-35118.8
+Depositos: 		Total:		153325.00
+			Promedio:	3739.63
+Retiros: 		Total:		203388.00
+			Promedio:	3389.80
+Saldo final: 		-35118.80
 ==============================================================================================================
 Cuenta No.: 		UNF761
 Cliente: 		ZAMBRANO/ARIAS/HUMBERTO-MANUEL
-Saldo inicial: 		31506.4
+Saldo inicial: 		31506.40
 
 Movimientos
 25/12/2012
@@ -5008,15 +5008,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		683685
-			Promedio:	7769
-Retiros: 		Total:		579082
-			Promedio:	7619
-Saldo final: 		136109
+Depositos: 		Total:		683685.00
+			Promedio:	7769.15
+Retiros: 		Total:		579082.00
+			Promedio:	7619.50
+Saldo final: 		136109.40
 ==============================================================================================================
 Cuenta No.: 		VLT948
 Cliente: 		SAENZ/ARANDA/WILMER
-Saldo inicial: 		20205.8
+Saldo inicial: 		20205.80
 
 Movimientos
 20/1/2013
@@ -5263,15 +5263,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		543542
-			Promedio:	4941
-Retiros: 		Total:		555264
-			Promedio:	5047
-Saldo final: 		8483.8
+Depositos: 		Total:		543542.00
+			Promedio:	4941.29
+Retiros: 		Total:		555264.00
+			Promedio:	5047.85
+Saldo final: 		8483.80
 ==============================================================================================================
 Cuenta No.: 		WDY795
 Cliente: 		WONG/PRECIADO/RICARDO
-Saldo inicial: 		12435.5
+Saldo inicial: 		12435.50
 
 Movimientos
 17/2/2013
@@ -5385,15 +5385,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		156685
-			Promedio:	3013
-Retiros: 		Total:		150719
-			Promedio:	3206
-Saldo final: 		18401.5
+Depositos: 		Total:		156685.00
+			Promedio:	3013.17
+Retiros: 		Total:		150719.00
+			Promedio:	3206.79
+Saldo final: 		18401.50
 ==============================================================================================================
 Cuenta No.: 		WII576
 Cliente: 		ZARATE/ACUNA/MILENA-CINTHIA
-Saldo inicial: 		51219
+Saldo inicial: 		51218.98
 
 Movimientos
 22/2/2013
@@ -5629,11 +5629,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		1404933
-			Promedio:	12216
-Retiros: 		Total:		1232839
-			Promedio:	12328
-Saldo final: 		223313
+Depositos: 		Total:		1404933.00
+			Promedio:	12216.81
+Retiros: 		Total:		1232839.00
+			Promedio:	12328.39
+Saldo final: 		223312.98
 ==============================================================================================================
 Cuenta No.: 		XLX941
 Cliente: 		TORRES/ARGUEDAS/TATIANA-KARIN
@@ -5915,15 +5915,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		101320
-			Promedio:	881
-Retiros: 		Total:		122051
-			Promedio:	897
-Saldo final: 		-17174.7
+Depositos: 		Total:		101320.00
+			Promedio:	881.04
+Retiros: 		Total:		122051.00
+			Promedio:	897.43
+Saldo final: 		-17174.74
 ==============================================================================================================
 Cuenta No.: 		XNG484
 Cliente: 		MORI/SUAREZ/EDILBERTO-JESUS
-Saldo inicial: 		1392.8
+Saldo inicial: 		1392.80
 
 Movimientos
 25/1/2013
@@ -6018,15 +6018,15 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		15220
-			Promedio:	338
-Retiros: 		Total:		11754
-			Promedio:	317
-Saldo final: 		4858.8
+Depositos: 		Total:		15220.00
+			Promedio:	338.22
+Retiros: 		Total:		11754.00
+			Promedio:	317.68
+Saldo final: 		4858.80
 ==============================================================================================================
 Cuenta No.: 		YHC743
 Cliente: 		WONG/PHUN/JORGE-VICTOR
-Saldo inicial: 		44585.7
+Saldo inicial: 		44585.72
 
 Movimientos
 4/2/2014
@@ -6166,11 +6166,11 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		761523
-			Promedio:	11036
-Retiros: 		Total:		605921
-			Promedio:	11220
-Saldo final: 		200188
+Depositos: 		Total:		761523.00
+			Promedio:	11036.57
+Retiros: 		Total:		605921.00
+			Promedio:	11220.76
+Saldo final: 		200187.72
 ==============================================================================================================
 Cuenta No.: 		ZTT900
 Cliente: 		MENDOZA/FLORENCIO/JAIR-ARTURO
@@ -6253,10 +6253,10 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		41410
-			Promedio:	1427
-Retiros: 		Total:		56077
-			Promedio:	1515
+Depositos: 		Total:		41410.00
+			Promedio:	1427.93
+Retiros: 		Total:		56077.00
+			Promedio:	1515.59
 Saldo final: 		-8776.53
 ==============================================================================================================
 Cuenta No.: 		ZWR271
@@ -6367,9 +6367,9 @@ Movimientos
 ----------------------------------------------------------------------------------------------------
 
 Resumen:
-Depositos: 		Total:		11463
-			Promedio:	272
-Retiros: 		Total:		13175
-			Promedio:	268
+Depositos: 		Total:		11463.00
+			Promedio:	272.93
+Retiros: 		Total:		13175.00
+			Promedio:	268.88
 Saldo final: 		-592.74
 ==============================================================================================================

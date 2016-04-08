@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "functions.h"
 
 using namespace std;
@@ -80,7 +81,8 @@ int leerMovimientos(int dia, int &depositos, int &retiros,
 
 int procesaUsuario(){
     double saldo;
-    int dia,aux,dep,ret,depTot,retTot,cuentaD=0,cuentaR=0;
+    int dia,aux,dep,ret,cuentaD=0,cuentaR=0;
+    double depTot,retTot;
     
     if (cin.eof()) return 0; //si ya se llego al fin de archivo retorna 0
     
@@ -114,9 +116,9 @@ int procesaUsuario(){
     impLinea('-',100);
     cout << "\nResumen:\n";
     cout << "Depositos: \t\tTotal:\t\t"<< depTot << endl;
-    cout << "\t\t\tPromedio:\t"<< (depTot/cuentaD) << endl;
-    cout << "Retiros: \t\tTotal:\t\t"<< retTot <<endl;    
-    cout << "\t\t\tPromedio:\t"<< (retTot/cuentaR) << endl;
+    cout << "\t\t\tPromedio:\t" << fixed << setprecision(2) << (depTot/cuentaD) << endl;
+    cout << "Retiros: \t\tTotal:\t\t" << retTot <<endl;    
+    cout << "\t\t\tPromedio:\t" << setprecision(2) << (retTot/cuentaR) << endl;
     cout << "Saldo final: \t\t" << (saldo + depTot - retTot) << endl;
     
     impLinea('=', 110);
