@@ -101,20 +101,22 @@ int procesaUsuario(){
     cout << "Movimientos\n";
     
     dia = 0;
+    depTot = 0;
+    retTot = 0;
     
     while (1){
         aux = leerMovimientos(dia,dep,ret,cuentaD,cuentaR);
-        if(aux==0) break;
         dia = aux;
         depTot += dep;
         retTot += ret;
+        if(aux==0) break;
     };
     impLinea('-',100);
     cout << "\nResumen:\n";
     cout << "Depositos: \t\tTotal:\t\t"<< depTot << endl;
-    cout << "\t\t\tPromedio:\t\t"<< (depTot/cuentaD) << endl;
+    cout << "\t\t\tPromedio:\t"<< (depTot/cuentaD) << endl;
     cout << "Retiros: \t\tTotal:\t\t"<< retTot <<endl;    
-    cout << "\t\t\tPromedio:\t\t"<< (retTot/cuentaR) << endl;
+    cout << "\t\t\tPromedio:\t"<< (retTot/cuentaR) << endl;
     cout << "Saldo final: \t\t" << (saldo + depTot - retTot) << endl;
     
     impLinea('=', 110);
