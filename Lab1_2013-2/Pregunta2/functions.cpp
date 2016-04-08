@@ -115,9 +115,9 @@ int procesaUsuario(){
     };
     impLinea('-',100);
     cout << "\nResumen:\n";
-    cout << "Depositos: \t\tTotal:\t\t"<< depTot << endl;
+    cout << "Depositos: \t\tTotal:\t\t" << setprecision(0) << depTot << endl;
     cout << "\t\t\tPromedio:\t" << fixed << setprecision(2) << (depTot/cuentaD) << endl;
-    cout << "Retiros: \t\tTotal:\t\t" << retTot <<endl;    
+    cout << "Retiros: \t\tTotal:\t\t" << setprecision(0)  << retTot <<endl;    
     cout << "\t\t\tPromedio:\t" << setprecision(2) << (retTot/cuentaR) << endl;
     cout << "Saldo final: \t\t" << (saldo + depTot - retTot) << endl;
     
