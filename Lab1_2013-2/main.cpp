@@ -5,9 +5,8 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-
     
-    
+    while(procesaUsuario());   
     return 0;
 }
 
