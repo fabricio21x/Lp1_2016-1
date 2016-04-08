@@ -40,21 +40,35 @@ void leerFecha(int dia){
     cout << dia << '/' << mes << '/' << anio << endl;
 }
 
-int leerMovimientos(int dia){
+int leerMovimientos(int dia, int &depositos, int &retiros,
+            int &cuentaDep, int &cuentaRet){
     char tipo;
     int cantidad;
+    
+    depositos=0;
+    retiros=0;
     
     leerFecha(dia);
     
     while(1){
         cin.clear();
         cin >> tipo;
-        cout << tipo << "\t\t";
-        cout << "\t\t";
-        while(cin >> cantidad && cin.peek() != '/' && cin.peek() != '\n' && !cin.eof()){
-            cout << cantidad << '\t';
+        while(cin >> cantidad && cin.peek() != '/' && !cin.eof()){
+            cout << "\t\t";
+            switch(tipo){
+                case 'D':
+                    cout << cantidad << '\n';
+                    depositos += cantidad;
+                    cuentaDep++;
+                    break;
+                case 'R':
+                    cout << '(' << cantidad << ')' << '\n';
+                    retiros += cantidad;
+                    cuentaRet++;
+                    break;
+            }
+            if(cin.peek() == '\n')break;
         }
-        cout << endl;
         if (cin.peek() == '/')break;
         if (cin.peek() == '\n' || cin.eof())return 0;
     }
@@ -66,27 +80,44 @@ int leerMovimientos(int dia){
 
 int procesaUsuario(){
     double saldo;
-    int dia,aux;
+    int dia,aux,dep,ret,depTot,retTot,cuentaD=0,cuentaR=0;
     
-    impLinea('=',115);
     if (cin.eof()) return 0; //si ya se llego al fin de archivo retorna 0
     
     //leer codigo
+    cout << "Cuenta No.: \t\t";
     pasarPalabra();
     cout << endl;
-    //leer nombre
-    pasarPalabra();
-    cout << endl;
-    //leer saldo
     
+    //leer nombre
+    cout << "Cliente: \t\t";
+    pasarPalabra();
+    cout << endl;
+    
+    //leer saldo
+    cout << "Saldo inicial: \t\t";
     cin >> saldo;
     cout << saldo << "\n\n";
+    cout << "Movimientos\n";
+    
     dia = 0;
+    
     while (1){
-        aux = leerMovimientos(dia);
+        aux = leerMovimientos(dia,dep,ret,cuentaD,cuentaR);
         if(aux==0) break;
         dia = aux;
+        depTot += dep;
+        retTot += ret;
     };
+    impLinea('-',100);
+    cout << "\nResumen:\n";
+    cout << "Depositos: \t\tTotal:\t\t"<< depTot << endl;
+    cout << "\t\t\tPromedio:\t\t"<< (depTot/cuentaD) << endl;
+    cout << "Retiros: \t\tTotal:\t\t"<< retTot <<endl;    
+    cout << "\t\t\tPromedio:\t\t"<< (retTot/cuentaR) << endl;
+    cout << "Saldo final: \t\t" << (saldo + depTot - retTot) << endl;
+    
+    impLinea('=', 110);
     
     return 1;
 }
