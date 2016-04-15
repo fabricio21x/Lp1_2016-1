@@ -11,7 +11,7 @@ int divide(int *array, int start, int end){
     left = start;
     right = end;
  
-    // Mientras no se cruzen los índices
+    // Mientras no se crucen los índices
     while (left < right) {
         while (array[right] > pivot) {
             right--;
