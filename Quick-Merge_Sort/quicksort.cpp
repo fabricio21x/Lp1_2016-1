@@ -1,7 +1,7 @@
 #include "quicksort.h"
 
 // Función para dividir el array y hacer los intercambios
-int divide(int *array, int start, int end) {
+int divide(int *array, int start, int end){
     int left;
     int right;
     int pivot;
@@ -17,7 +17,7 @@ int divide(int *array, int start, int end) {
             right--;
         }
  
-        while ((left < right) && (array[left] <= pivot)) {
+        while ((left < right) && (array[left] <= pivot)){
             left++;
         }
  
