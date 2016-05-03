@@ -74,23 +74,18 @@ void leerDatos(void *&lstCursos, void *&lstAlumnos){
     lstAlumnos = memoriaExacta(buffAlumnos, numAlumno);
 }
 
-int buscarAlumno(void *lstAlumnos, int codAlumno){
-    void **arrAlumnos = (void **)lstAlumnos;
-    
-    for (int i = 0; arrAlumnos[i] != NULL; i++) {
-    }
-
-}
-
 void agregarNotas(void *&lstAlumnos){
+    void **arrAlumnos = (void **)lstAlumnos;
+    char buffCurso[10];
+    int codAlumno, nota, indAlum;
     
-    char *codCurso;
-    int codAlumno, nota, indice;
-    
-    while(cin >> codCurso >> codAlumno >> nota){
-        indice = buscarAlumno(lstAlumnos,codAlumno);
+    while(cin >> buffCurso >> codAlumno >> nota){
+        char *codCurso = new char[strlen(buffCurso) + 1];
+        strcpy(codCurso, buffCurso);
+        indAlum = buscarAlumno(arrAlumnos,codAlumno);
+        agregarNotaCurso(arrAlumnos[indAlum], codCurso, nota);
     }
-    
+    //imprimirAlumnosNotas(lstAlumnos);
     
 }
 

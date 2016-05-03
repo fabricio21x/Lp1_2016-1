@@ -17,11 +17,23 @@ void split(char *lineaProd, char *palabras[], int &numPal){
     cin.ignore();
 }
 
-void incrementarEspacios(int *&alumnoClase){
-    int *auxAlumnoclase = new int[alumnoClase[0] + 5];
-    for (int i = 0; i < alumnoClase[1]; i++)
-        auxAlumnoclase[i] = alumnoClase[i];
-    auxAlumnoclase[0] = alumnoClase[0] + 10;
-    delete[] alumnoClase;
-    alumnoClase = auxAlumnoclase;
+void incrementarEspacios(void **&regAlumno){
+    char **cursos = (char **)regAlumno[3];
+    int *notas = (int *)regAlumno[4];
+    int *cantidades = (int *)regAlumno[5];
+    
+    char **auxCursos = new char*[cantidades[0] + 5];
+    int *auxNotas = new int[cantidades[0] + 5];
+    
+    for (int i = 0; i < cantidades[1]; i++) {
+        auxCursos[i] = cursos[i];
+        auxNotas[i] = notas[i];
+    }
+    cantidades[0] =+ 5;
+    
+    delete[] cursos;
+    delete[] notas;
+    
+    regAlumno[3] = auxCursos;
+    regAlumno[4] = auxNotas;
 }
