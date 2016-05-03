@@ -29,7 +29,7 @@ void incrementarEspacios(void **&regAlumno){
         auxCursos[i] = cursos[i];
         auxNotas[i] = notas[i];
     }
-    cantidades[0] =+ 5;
+    cantidades[0] += 5;
     
     delete[] cursos;
     delete[] notas;

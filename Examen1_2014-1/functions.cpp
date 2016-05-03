@@ -85,8 +85,6 @@ void agregarNotas(void *&lstAlumnos){
         indAlum = buscarAlumno(arrAlumnos,codAlumno);
         agregarNotaCurso(arrAlumnos[indAlum], codCurso, nota);
     }
-    //imprimirAlumnosNotas(lstAlumnos);
-    
 }
 
 void imprimirDatos(void *lstCursos, void *lstAlumnos){
@@ -112,6 +110,16 @@ void imprimirDatos(void *lstCursos, void *lstAlumnos){
         char *ptrNombre = (char *)regAlumno[1];
         int *ptrEsp = (int *)regAlumno[2];
         
+        char **cursos = (char **)regAlumno[3];
+        int *notas = (int *)regAlumno[4];
+        int *cant = (int *)regAlumno[5];
+
         cout << *ptrCod << "  " << ptrNombre << "\t" << *ptrEsp << endl;
+        cout << "Notas por curso: \n";
+        for (int i = 0; i < cant[1]; i++) {
+            cout << '\t' << cursos[i] << '\t' << notas[i] << endl;
+        }
+
+        
     }
 }

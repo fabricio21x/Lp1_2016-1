@@ -4,7 +4,7 @@
 #include <iostream>
 
 void split(char *lineaProd, char *palabras[], int &numPal);
-void incrementarEspacios(int *&alumnoClase);
+void incrementarEspacios(void **&regAlumno);
 
 template <typename T>
 T *memoriaExacta(T *buffer, int num){
