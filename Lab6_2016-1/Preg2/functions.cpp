@@ -172,6 +172,7 @@ void crearListaDatos(void *&ciudad, char *fecha, double tempF, double tempC,
 void agregarDatosCiudad(void *&ciudad, char *fecha, double tempF, double tempC,
         double humedad, double duracion, double volumen){
 
+    //Solo se entrara a este procedimiento si hay casillas disponibles para colocar nuevas estructuras
     void **regC = (void **)ciudad;
     void **regD = (void **)regC[2];
     
@@ -195,11 +196,10 @@ void agregarDatosCiudad(void *&ciudad, char *fecha, double tempF, double tempC,
     regDatos[4] = ptrDur;
     regDatos[5] = ptrVol;
     
-    int *ocupados = (int *)regD[1];
-    int a = *ocupados;
-    regD[*ocupados] = regDatos;
-    *ocupados += 1;
-    regD[1] = ocupados;
+    int *ocupados = (int *)regD[1]; //se obtiene el numero de casillas ocupadas
+    regD[*ocupados] = regDatos; //en la posicion disponible se coloca la referencia a la nueva estructura creada
+    *ocupados += 1; //aumentamos el numero de casillas ocupadas
+    regD[1] = ocupados; //actualizamos la referencia de las casillas ocupadas
     
 }
 
@@ -216,9 +216,7 @@ void agregarDatos(void *&ciudad, char *fecha, double tempF, double tempC,
         
         if(cant1 == cant2){
             incrementarEspacios(ciudad);  
-            regDatos = (void **)regCiud[2];
-            int cant1 = *(int*)regDatos[0];
-            int cant2 = *(int*)regDatos[1];
+            regDatos = (void **)regCiud[2]; //Se refresca la referencia al nuevo arreglo aumentado
         } 
         agregarDatosCiudad(ciudad, fecha, tempF, tempC, humedad, duracion, volumen);
     }

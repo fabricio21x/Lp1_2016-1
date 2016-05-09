@@ -24,17 +24,19 @@ void *memoriaExacta(void *buff[], int num){
 }
 
 void incrementarEspacios(void *&ciudad){
-    void **regCiud = (void**) ciudad;
+    void **regCiud = (void**)ciudad;
+    
     void **regDatos = (void **)regCiud[2];
     
     int *num = (int *)regDatos[0]; //se lee el total de espacios
+    
     void **auxCiud = new void*[*num + 5];
     
-    for (int i = 0; i < *num; i++) {
+    for (int i = 0; i < *num; i++){
         auxCiud[i] = regDatos[i];
     }
-    delete[] regDatos;
+    delete[] regDatos; //se borra la referencia al arreglo antiguo
     *num += 5;
     auxCiud[0] = num; //se aumenta el total de espacios disponibles
-    regDatos = auxCiud;
+    regCiud[2] = auxCiud; //se hace apuntar al nuevo arreglo con espacios aumentados
 }
