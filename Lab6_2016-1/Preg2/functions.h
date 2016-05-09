@@ -6,5 +6,6 @@
 void leerCiudades(void *&, int&);
 void agregarDatosClima(void *&, int);
 
+
 #endif /* FUNCTIONS_H */
 
