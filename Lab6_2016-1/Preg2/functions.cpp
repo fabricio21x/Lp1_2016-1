@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "util.h"
+#include <iomanip>
 #include <cstring>
 
 using namespace std;
@@ -168,9 +169,12 @@ void crearListaDatos(void *&ciudad, char *fecha, double tempF, double tempC,
     
 }
 
-void agregarDatosCiudad(void **&regD, char *fecha, double tempF, double tempC,
+void agregarDatosCiudad(void *&ciudad, char *fecha, double tempF, double tempC,
         double humedad, double duracion, double volumen){
 
+    void **regC = (void **)ciudad;
+    void **regD = (void **)regC[2];
+    
     void **regDatos = new void*[6];
     
     double *ptrTempC = new double;
@@ -192,10 +196,10 @@ void agregarDatosCiudad(void **&regD, char *fecha, double tempF, double tempC,
     regDatos[5] = ptrVol;
     
     int *ocupados = (int *)regD[1];
+    int a = *ocupados;
     regD[*ocupados] = regDatos;
     *ocupados += 1;
     regD[1] = ocupados;
-    
     
 }
 
@@ -211,9 +215,12 @@ void agregarDatos(void *&ciudad, char *fecha, double tempF, double tempC,
         int cant2 = *(int*)regDatos[1];
         
         if(cant1 == cant2){
-            incrementarEspacios(regDatos);            
-        }
-        agregarDatosCiudad(regDatos, fecha, tempF, tempC, humedad, duracion, volumen);
+            incrementarEspacios(ciudad);  
+            regDatos = (void **)regCiud[2];
+            int cant1 = *(int*)regDatos[0];
+            int cant2 = *(int*)regDatos[1];
+        } 
+        agregarDatosCiudad(ciudad, fecha, tempF, tempC, humedad, duracion, volumen);
     }
 }
 
@@ -254,8 +261,13 @@ void imprimirDatos(void *lstCiudades){
                 double *duracion = (double*)registros[4];        
                 double *volumen = (double*)registros[5];
 
-                cout << fecha << '\t' << *tempC << "   " << *tempF << '\t' 
-                        << *humedad << '\t' << *duracion << "   " << *volumen << endl;
+                cout << fixed;
+                cout << "\t\t" << fecha << '\t' <<
+                        setprecision(2) << *tempC << "   " << 
+                        setprecision(2) << *tempF << '\t' <<
+                        setprecision(2) << *humedad << '\t' << 
+                        setprecision(2) << *duracion << "   " << 
+                        setprecision(2) << *volumen << endl;
 
             }
         }

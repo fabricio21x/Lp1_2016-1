@@ -8,7 +8,7 @@ using namespace  std;
 void split(char linea[], char*palabras[], int &numPal){
     char *pal;
     numPal = 0;
-    palabras[numPal++] = strtok(linea, " \t");
+    palabras[numPal++] = strtok(linea, " \t\r");
     while((pal = strtok(NULL, " \t"))){
         palabras[numPal++] = pal;
     }
@@ -23,19 +23,18 @@ void *memoriaExacta(void *buff[], int num){
     return array;    
 }
 
-void incrementarEspacios(void **&regCiud){
-    //void **regCiud = (void**) ciudad;
+void incrementarEspacios(void *&ciudad){
+    void **regCiud = (void**) ciudad;
+    void **regDatos = (void **)regCiud[2];
     
-    int *num = (int *)regCiud[0]; //se lee el total de espacios
-    int *num2 = (int *)regCiud[1];
+    int *num = (int *)regDatos[0]; //se lee el total de espacios
     void **auxCiud = new void*[*num + 5];
     
     for (int i = 0; i < *num; i++) {
-        auxCiud[i] = regCiud[i];
+        auxCiud[i] = regDatos[i];
     }
-    delete[] regCiud;
+    delete[] regDatos;
     *num += 5;
     auxCiud[0] = num; //se aumenta el total de espacios disponibles
-    auxCiud[1] = num2;
-    regCiud = auxCiud;
+    regDatos = auxCiud;
 }
