@@ -14,6 +14,7 @@ using namespace std;
 class Profesor {
 public:
     Profesor();
+    Profesor(const Profesor &orig);
     ~Profesor();
     
     void SetTipo(char* tipo);
@@ -33,6 +34,7 @@ public:
     
     friend istream& operator>>(istream &in, Profesor &prof);
     friend ostream& operator<<(ostream &out,const Profesor &prof);
+    Profesor operator=(const Profesor &orig);
     
 private:
     int codigo;
@@ -41,6 +43,7 @@ private:
     char *especialidad;
     char *tipo;
     
+    void inicializarProfesor();
     void SetCadena(char *&, char *);
     char *CopiarCadena(char *);
 };

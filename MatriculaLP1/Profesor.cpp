@@ -4,6 +4,29 @@
 using namespace std;
 
 Profesor::Profesor() {
+    inicializarProfesor();
+}
+
+Profesor::Profesor(const Profesor &orig){
+    inicializarProfesor();
+    this->SetCodigo(orig.codigo);
+    this->SetNombre(orig.nombre);
+    this->SetApellido(orig.apellido);
+    this->SetEspecialidad(orig.especialidad);
+    this->SetTipo(orig.tipo);
+}
+
+Profesor Profesor::operator=(const Profesor &orig){
+    inicializarProfesor();
+    this->SetCodigo(orig.codigo);
+    this->SetNombre(orig.nombre);
+    this->SetApellido(orig.apellido);
+    this->SetEspecialidad(orig.especialidad);
+    this->SetTipo(orig.tipo);
+    return *this;
+}
+
+void Profesor::inicializarProfesor(){
     this->nombre = NULL;
     this->apellido = NULL;
     this->especialidad = NULL;
